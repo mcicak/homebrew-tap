@@ -6,11 +6,11 @@ class Matricula < Formula
 
   on_macos do
     on_arm do
-      url ""
+      url "https://downloads.matricula.io/console/v0.1.1/matricula-macos-arm64.tar.gz"
       sha256 "407d3127b678858e6fc1b54e23fbff8f8ee17b5bbaaac38545e0b29ab0befb84"
     end
     on_intel do
-      url ""
+      url "https://downloads.matricula.io/console/v0.1.1/matricula-macos-x64.tar.gz"
       sha256 "51f74783aaedd8a8b56d268675734dbc157820f8eb2bf74ddb5e03fbbfaa3753"
     end
   end
@@ -18,11 +18,11 @@ class Matricula < Formula
   on_linux do
     on_arm do
       url "https://downloads.matricula.io/console/v0.1.1/matricula-linux-arm64.tar.gz"
-      sha256 "REPLACE_LINUX_ARM_SHA"
+      sha256 "1a24cb4fb25f2a48d3c22ab0b0298f88076ca3c7a11187b8872492522abdaae8"
     end
     on_intel do
       url "https://downloads.matricula.io/console/v0.1.1/matricula-linux-x64.tar.gz"
-      sha256 "REPLACE_LINUX_X64_SHA"
+      sha256 "e83e8428c8a70f714019e859070b9eeb91195df3f3efa360dcdcaf524b709f12"
     end
   end
 
